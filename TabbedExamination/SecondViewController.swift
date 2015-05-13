@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
     var bubblesCreated = 0
     var bubblesPopped = 0.0
     var bubbleArray = [UIView]()
-    var bottomBorder = CALayer() // scoreView is extraneous after adding this
+    var bottomBorder = CALayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
